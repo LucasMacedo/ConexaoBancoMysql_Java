@@ -32,7 +32,7 @@ public class ConnectionManager {
                     url = "jdbc:mysql://localhost:3306/mydb";
                 }                
                 String user = "root";
-                String password = "Figueira17";
+                String password = "";
                 
                 connection = DriverManager.getConnection(url, user, password);
                 connection.setAutoCommit(false);

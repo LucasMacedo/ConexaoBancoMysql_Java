@@ -94,6 +94,6 @@ public class EquipeDao{
         }finally{
             ConnectionManager.closeConnection();
         }
-    };
+    }
     
 }
